@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: nouurr/backend1:latest # le nom de l'image Docker
+        image: nouurr/backend3:latest # le nom de l'image Docker
         ports:
         - containerPort: 5000
         command: ["node", "server.js"]
